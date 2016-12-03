@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('body').scrollspy({ target: '.navbar-default' })
+	$('body').scrollspy({ target: '.navbar-custom' })
 
 
 	// JPRELOADER
@@ -20,6 +20,7 @@ $(document).ready(function() {
 	        $(".navbar").removeClass("navbar-small");
 	    }
 	});
+
 
 	// SMOOTH SCROLL
 	$('a[href*=#]:not([href=#])').click(function() {
