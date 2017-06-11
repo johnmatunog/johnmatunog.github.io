@@ -754,3 +754,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+.resume .img-responsive {
+    margin-top: 100px;
+}
